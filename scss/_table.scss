@@ -1,0 +1,5 @@
+.table > thead > tr > th,
+.table > tbody + tbody {
+   border-top: none;
+   border-bottom: none;
+}

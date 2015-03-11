@@ -1,0 +1,56 @@
+/**
+ * Copyright 2015 aixigo AG
+ * Released under the MIT license.
+ * http://laxarjs.org/license
+ */
+@charset "UTF-8";
+
+@import "variables_all";
+
+.ax-widget-browser-widget {
+
+   background-color: #f2f2f2;
+   padding: 2px 20px 10px;
+   margin: -2px -20px -10px;
+   border-top-right-radius: 50px;
+   border-bottom-right-radius: 50px;
+
+   .table,
+   .form-control {
+      font-size: 12px;
+   }
+
+   .table {
+      margin-top: 10px;
+   }
+
+   .form-control {
+      padding: 5px;
+   }
+
+   a {
+      padding: 5px;
+      display: block;
+   }
+
+   td {
+      border-top: none !important;
+      padding: 0px !important;
+   }
+
+   tr:nth-child(5n+1) > td {
+      padding-top: 10px !important;
+   }
+
+   tr.selected a {
+      background-color: $COLOR_VIKING;
+      color: white;
+      text-decoration: none;
+      cursor: default;
+   }
+
+   .ax-widget-browser-highlight {
+      background-color: $COLOR_GOLDEN_TAINOI;
+      color: black;
+   }
+}

@@ -1,0 +1,52 @@
+/**
+ * Copyright 2015 aixigo AG
+ * Released under the MIT license.
+ * http://laxarjs.org/license
+ */
+/* line 10, ../scss/ax-widget-browser-widget.scss */
+.ax-widget-browser-widget {
+  background-color: #f2f2f2;
+  padding: 2px 20px 10px;
+  margin: -2px -20px -10px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+/* line 18, ../scss/ax-widget-browser-widget.scss */
+.ax-widget-browser-widget .table,
+.ax-widget-browser-widget .form-control {
+  font-size: 12px;
+}
+/* line 23, ../scss/ax-widget-browser-widget.scss */
+.ax-widget-browser-widget .table {
+  margin-top: 10px;
+}
+/* line 27, ../scss/ax-widget-browser-widget.scss */
+.ax-widget-browser-widget .form-control {
+  padding: 5px;
+}
+/* line 31, ../scss/ax-widget-browser-widget.scss */
+.ax-widget-browser-widget a {
+  padding: 5px;
+  display: block;
+}
+/* line 36, ../scss/ax-widget-browser-widget.scss */
+.ax-widget-browser-widget td {
+  border-top: none !important;
+  padding: 0px !important;
+}
+/* line 41, ../scss/ax-widget-browser-widget.scss */
+.ax-widget-browser-widget tr:nth-child(5n+1) > td {
+  padding-top: 10px !important;
+}
+/* line 45, ../scss/ax-widget-browser-widget.scss */
+.ax-widget-browser-widget tr.selected a {
+  background-color: #5bc0de;
+  color: white;
+  text-decoration: none;
+  cursor: default;
+}
+/* line 52, ../scss/ax-widget-browser-widget.scss */
+.ax-widget-browser-widget .ax-widget-browser-highlight {
+  background-color: #ffce54;
+  color: black;
+}

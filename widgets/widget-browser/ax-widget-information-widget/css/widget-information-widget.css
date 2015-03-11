@@ -1,0 +1,17 @@
+/**
+ * Copyright 2015 aixigo AG
+ * Released under the MIT license.
+ * http://laxarjs.org/license
+ */
+/* line 9, ../scss/widget-information-widget.scss */
+.ax-widget-information-widget .ax-information-intro-text {
+  margin-bottom: 40px;
+}
+/* line 13, ../scss/widget-information-widget.scss */
+.ax-widget-information-widget .ax-information-version {
+  font-size: 0.5rem;
+}
+/* line 17, ../scss/widget-information-widget.scss */
+.ax-widget-information-widget .ax-information-table-col-1 {
+  width: 24px;
+}
