@@ -11094,7 +11094,7 @@ body:before {
 
 /* line 98, ../scss/_application.scss */
 .app-footer a {
-  border-bottom: 1px dotted #aaa;
+  border-bottom: 1px dotted #bbb;
 }
 /* line 101, ../scss/_application.scss */
 .app-footer a:hover, .app-footer a:focus {
@@ -11130,9 +11130,28 @@ h3, h4 {
   font-weight: 300;
 }
 
+/* line 17, ../scss/_type.scss */
+em {
+  color: #ff9900;
+  font-family: "Exo 2", Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 /* line 1, ../scss/_table.scss */
+.table > thead > tr > th {
+  font-family: "Exo 2", Arial, sans-serif;
+  font-weight: 500;
+}
+
+/* line 5, ../scss/_table.scss */
 .table > thead > tr > th,
 .table > tbody + tbody {
   border-top: none;
   border-bottom: none;
+}
+
+/* line 11, ../scss/_table.scss */
+.table > thead + tbody > tr:first-child > td {
+  border-top-color: #bbb;
 }
