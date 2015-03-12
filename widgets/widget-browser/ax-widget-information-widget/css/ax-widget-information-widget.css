@@ -4,69 +4,68 @@
  * http://laxarjs.org/license
  */
 /* line 11, ../scss/ax-widget-information-widget.scss */
+.ax-widget-information-widget .table {
+  margin-bottom: 40px;
+}
+/* line 14, ../scss/ax-widget-information-widget.scss */
 .ax-widget-information-widget .ax-information-intro-text {
   margin-bottom: 40px;
 }
-/* line 15, ../scss/ax-widget-information-widget.scss */
+/* line 18, ../scss/ax-widget-information-widget.scss */
 .ax-widget-information-widget .ax-information-version {
   font-size: 0.5rem;
 }
-/* line 19, ../scss/ax-widget-information-widget.scss */
+/* line 22, ../scss/ax-widget-information-widget.scss */
 .ax-widget-information-widget th {
   font-size: 12px !important;
   padding-bottom: 0px !important;
   color: #737373;
 }
-/* line 25, ../scss/ax-widget-information-widget.scss */
+/* line 28, ../scss/ax-widget-information-widget.scss */
 .ax-widget-information-widget th:first-child,
 .ax-widget-information-widget td:first-child {
   padding-right: 0px;
 }
-/* line 30, ../scss/ax-widget-information-widget.scss */
+/* line 33, ../scss/ax-widget-information-widget.scss */
 .ax-widget-information-widget th:last-child,
 .ax-widget-information-widget td:last-child {
   text-align: right;
 }
-/* line 35, ../scss/ax-widget-information-widget.scss */
+/* line 38, ../scss/ax-widget-information-widget.scss */
 .ax-widget-information-widget .ax-information-table-col-1 {
   width: 24px;
 }
-/* line 36, ../scss/ax-widget-information-widget.scss */
+/* line 39, ../scss/ax-widget-information-widget.scss */
 .ax-widget-information-widget .ax-information-table-col-2 {
   width: 20%;
 }
-/* line 39, ../scss/ax-widget-information-widget.scss */
+/* line 42, ../scss/ax-widget-information-widget.scss */
 .ax-widget-information-widget .ax-information-table td:first-child + td {
   padding-left: 0;
 }
-/* line 43, ../scss/ax-widget-information-widget.scss */
-.ax-widget-information-widget .ax-information-table em {
-  font-style: normal;
-  font-size: 12px;
-}
-/* line 50, ../scss/ax-widget-information-widget.scss */
+/* line 48, ../scss/ax-widget-information-widget.scss */
 .ax-widget-information-widget .ax-information-description td {
   padding-top: 0;
   font-size: 12px;
   text-align: left;
 }
-/* line 59, ../scss/ax-widget-information-widget.scss */
+/* line 57, ../scss/ax-widget-information-widget.scss */
 .ax-widget-information-widget .ax-information-description td,
 .ax-widget-information-widget .ax-information-properties td {
   border-top: none;
   padding-left: 24px;
 }
-/* line 64, ../scss/ax-widget-information-widget.scss */
+/* line 62, ../scss/ax-widget-information-widget.scss */
 .ax-widget-information-widget .ax-information-description strong,
 .ax-widget-information-widget .ax-information-properties strong {
   color: #737373;
 }
-/* line 69, ../scss/ax-widget-information-widget.scss */
+/* line 67, ../scss/ax-widget-information-widget.scss */
 .ax-widget-information-widget .btn-link {
   padding: 0;
   margin-top: -2px;
 }
-/* line 74, ../scss/ax-widget-information-widget.scss */
+/* line 72, ../scss/ax-widget-information-widget.scss */
 .ax-widget-information-widget .ax-link-icon {
   width: 14px;
 }

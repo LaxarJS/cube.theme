@@ -8,6 +8,9 @@
 @import "variables_all";
 
 .ax-widget-information-widget {
+   .table {
+      margin-bottom: 40px;
+   }
    .ax-information-intro-text {
       margin-bottom: 40px;
    }
@@ -38,11 +41,6 @@
    .ax-information-table {
       td:first-child + td {
          padding-left: 0;
-      }
-
-      em {
-         font-style: normal;
-         font-size: 12px;
       }
    }
 
