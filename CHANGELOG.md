@@ -2,6 +2,10 @@
 
 ## Last Changes
 
+##v0.3.0
+
+- [#3](https://github.com/LaxarJS/cube.theme/issues/3): theme: removed widget-browser specific styles
+
 
 ## v0.2.0
 
