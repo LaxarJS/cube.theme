@@ -2,6 +2,9 @@
 
 ## Last Changes
 
+
+## v0.4.0
+
 - [#4](https://github.com/LaxarJS/cube.theme/issues/4): theme: added functional point style
 
 
