@@ -205,7 +205,6 @@
 .fa-rotate-90 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
   -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
@@ -213,7 +212,6 @@
 .fa-rotate-180 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -221,7 +219,6 @@
 .fa-rotate-270 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   -webkit-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
   transform: rotate(270deg);
 }
 
@@ -229,7 +226,6 @@
 .fa-flip-horizontal {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
   -webkit-transform: scale(-1, 1);
-  -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
 
@@ -237,7 +233,6 @@
 .fa-flip-vertical {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   -webkit-transform: scale(1, -1);
-  -ms-transform: scale(1, -1);
   transform: scale(1, -1);
 }
 
@@ -2881,6 +2876,7 @@ figure {
 
 /* line 209, ../../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_normalize.scss */
 hr {
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
@@ -2951,7 +2947,8 @@ input {
 /* line 332, ../../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
-  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
   padding: 0;
 }
 
@@ -2964,6 +2961,7 @@ input[type="number"]::-webkit-outer-spin-button {
 /* line 355, ../../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 
@@ -3116,12 +3114,14 @@ th {
 }
 /* line 11, ../../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_scaffolding.scss */
 * {
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 /* line 14, ../../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_scaffolding.scss */
 *:before,
 *:after {
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -5178,6 +5178,7 @@ label {
 
 /* line 47, ../../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
 input[type="search"] {
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -11154,4 +11155,42 @@ em {
 /* line 11, ../scss/_table.scss */
 .table > thead + tbody > tr:first-child > td {
   border-top-color: #bbb;
+}
+
+/* line 8, ../scss/_function_point.scss */
+.ax-function-point {
+  color: #ccc;
+  line-height: 50px;
+  height: 50px;
+  font-family: "Exo 2", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+/* line 20, ../scss/_function_point.scss */
+.ax-function-point .fa {
+  font-size: 30px;
+  background-color: #ccc;
+  color: white;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50px;
+  text-align: center;
+  margin-right: 0.2em;
+}
+/* line 32, ../scss/_function_point.scss */
+.ax-function-point + .table {
+  border: 1px solid #ddd;
+  border-radius: 5px 5px 0 0;
+  border-collapse: separate;
+}
+/* line 37, ../scss/_function_point.scss */
+.ax-function-point + .table th {
+  background-color: #ddd;
+}
+/* line 41, ../scss/_function_point.scss */
+.ax-function-point + .table > thead + tbody > tr:first-child > td {
+  border-top: none;
 }
