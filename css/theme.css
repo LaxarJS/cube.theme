@@ -205,6 +205,7 @@
 .fa-rotate-90 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
   -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
@@ -212,6 +213,7 @@
 .fa-rotate-180 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -219,6 +221,7 @@
 .fa-rotate-270 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
   transform: rotate(270deg);
 }
 
@@ -226,6 +229,7 @@
 .fa-flip-horizontal {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
   -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
 
@@ -233,6 +237,7 @@
 .fa-flip-vertical {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
   transform: scale(1, -1);
 }
 
@@ -2876,7 +2881,6 @@ figure {
 
 /* line 209, ../../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_normalize.scss */
 hr {
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
@@ -2947,8 +2951,7 @@ input {
 /* line 332, ../../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
 }
 
@@ -2961,7 +2964,6 @@ input[type="number"]::-webkit-outer-spin-button {
 /* line 355, ../../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 
@@ -3114,14 +3116,12 @@ th {
 }
 /* line 11, ../../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_scaffolding.scss */
 * {
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 /* line 14, ../../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_scaffolding.scss */
 *:before,
 *:after {
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -5178,7 +5178,6 @@ label {
 
 /* line 47, ../../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
 input[type="search"] {
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -11065,12 +11064,24 @@ body:before {
   font-weight: 200;
 }
 
+/* line 64, ../scss/_application.scss */
+.app-header,
+.app-footer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 /* line 69, ../scss/_application.scss */
+.app-header a,
+.app-footer a {
+  white-space: nowrap;
+}
+
+/* line 79, ../scss/_application.scss */
 .app-content-wrapper {
   top: 155px;
 }
 
-/* line 73, ../scss/_application.scss */
+/* line 83, ../scss/_application.scss */
 .app-content {
   position: relative;
   background-color: white;
@@ -11080,38 +11091,31 @@ body:before {
   border-radius: 0 50px 0 0;
 }
 
-/* line 87, ../scss/_application.scss */
+/* line 97, ../scss/_application.scss */
 .app-footer {
   margin-top: 20px;
   text-shadow: 1px  1px 0px #fff;
   padding-bottom: 1em;
 }
+/* line 102, ../scss/_application.scss */
+.app-footer .app-version a {
+  margin-left: 0.5em;
+}
 
-/* line 93, ../scss/_application.scss */
+/* line 107, ../scss/_application.scss */
 .app-footer,
 .app-footer a {
   color: #8c8c8c;
 }
 
-/* line 98, ../scss/_application.scss */
+/* line 112, ../scss/_application.scss */
 .app-footer a {
   border-bottom: 1px dotted #bbb;
 }
-/* line 101, ../scss/_application.scss */
+/* line 115, ../scss/_application.scss */
 .app-footer a:hover, .app-footer a:focus {
   color: #2a6496;
   text-decoration: none;
-}
-
-/* line 108, ../scss/_application.scss */
-.app-version {
-  white-space: nowrap;
-}
-
-/* line 112, ../scss/_application.scss */
-.app-version {
-  padding-left: 26px;
-  padding-right: 26px;
 }
 
 /* line 2, ../scss/_type.scss */
