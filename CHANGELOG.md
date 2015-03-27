@@ -2,6 +2,9 @@
 
 ## Last Changes
 
+
+## v0.5.0
+
 - [#5](https://github.com/LaxarJS/cube.theme/issues/5): theme: improved footer styling
 
 
