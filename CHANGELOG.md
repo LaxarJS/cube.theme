@@ -2,6 +2,9 @@
 
 ## Last Changes
 
+
+## v0.6.0
+
 - [#6](https://github.com/LaxarJS/cube.theme/issues/6): theme: updated font awesome
 
 
