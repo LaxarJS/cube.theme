@@ -61,6 +61,16 @@ body:before {
    font-weight: 200;
 }
 
+.app-header,
+.app-footer {
+   padding-left: 20px;
+   padding-right: 20px;
+
+   a {
+      white-space: nowrap;
+   }
+}
+
 
 //
 // Content
@@ -88,6 +98,10 @@ body:before {
    margin-top: 20px;
    text-shadow: 1px  1px 0px #fff;
    padding-bottom: 1em;
+
+   .app-version a {
+      margin-left: 0.5em;
+   }
 }
 
 .app-footer,
