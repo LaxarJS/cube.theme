@@ -2,6 +2,8 @@
 
 ## Last Changes
 
+## v0.7.0
+
 - [#7](https://github.com/LaxarJS/cube.theme/issues/7): theme: improved styling
 
 
