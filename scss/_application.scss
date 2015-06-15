@@ -1,10 +1,16 @@
+$app-header-height: 115px;
+
 html,
 body {
    font-size: $font-size-base;
+
+   @media (max-width: $screen-md-max) {
+      font-size: $font-size-small;
+   }
 }
 
 body {
-   background: url(../images/header-shadow.png) no-repeat center 115px #e9ebed;
+   background: url(../images/header-shadow.png) no-repeat center $app-header-height #e9ebed;
 }
 
 body:before {
@@ -13,7 +19,7 @@ body:before {
    top: 0;
    left: 0;
    right: 0;
-   height: 115px;
+   height: $app-header-height;
    background: #fff;
    border-bottom: 1px solid #D3D3D3;
 }
@@ -22,8 +28,7 @@ body:before {
    position: relative;
 }
 
-.app-header,
-.app-content-wrapper {
+.app-header {
    position: absolute;
    left: 0;
    right: 0;
@@ -77,7 +82,7 @@ body:before {
 // -----------------------------------------------------------------------------------------------------------
 
 .app-content-wrapper {
-   top: 155px;
+   margin-top: $app-header-height + 40;
 }
 
 .app-content {
