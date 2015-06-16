@@ -57,12 +57,19 @@ bower_dir = find_bower_dir( base_dir )
 puts 'cube.theme: using bower_components at ' + bower_dir
 
 # UiKit: Assume that we are installed as a bower component:
-uikit_dir = bower_dir + 'laxar_uikit/'
+uikit_dir = bower_dir + 'laxar-uikit/dist/'
 # Look for UiKit installed as a submodule in the application:
-if File.directory? (base_dir + '../../lib/laxar_uikit/')
-   uikit_dir = base_dir + '../../lib/laxar_uikit/'
-   # Allow to import controls using 'laxar_uikit/controls/...'
+if File.directory? (base_dir + '../../lib/laxar-uikit/')
+   uikit_dir = base_dir + '../../lib/laxar-uikit/'
+   # Allow to import controls using 'laxar-uikit/controls/...'
    add_import_path base_dir + '../../lib/'
+end
+
+# Widgets: Assume that we are installed as a bower component:
+control_dir = bower_dir + '../includes/controls'
+# Find controls if this theme is installed as a submodule:
+if File.directory? (base_dir + '../../controls')
+   control_dir = base_dir + '../../controls'
 end
 
 # Widgets: Assume that we are installed as a bower component:
@@ -90,6 +97,9 @@ add_import_path bower_dir + 'bootstrap-sass-official/assets/stylesheets/'
 
 ## - Font Awesome, Laxar-Uikit controls
 add_import_path bower_dir
+
+# Find default theme for contols
+add_import_path control_dir
 
 # Find default theme for widgets
 add_import_path widget_dir
