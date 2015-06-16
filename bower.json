@@ -12,7 +12,7 @@
       "docs"
    ],
    "dependencies": {
-      "laxar_uikit": "LaxarJS/laxar_uikit#0.x"
+      "laxar-uikit": "1.0.0+2"
    },
    "devDependencies": {
       "es5-shim": "es-shims/es5-shim#2.3.x",

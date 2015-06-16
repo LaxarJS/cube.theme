@@ -2,6 +2,9 @@
 
 ## Last Changes
 
+- [#8](https://github.com/LaxarJS/cube.theme/issues/8): theme: updated laxar uikit, improved config.rb
+
+
 ## v0.7.0
 
 - [#7](https://github.com/LaxarJS/cube.theme/issues/7): theme: improved styling
