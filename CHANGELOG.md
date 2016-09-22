@@ -2,6 +2,8 @@
 
 ## Last Changes
 
+- [#10](https://github.com/LaxarJS/cube.theme/issues/10): theme: added class for the developer tools
+
 
 ## v0.8.0
 
