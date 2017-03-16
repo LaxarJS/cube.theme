@@ -3,6 +3,11 @@
 ## Last Changes
 
 
+## v0.9.0
+
+- [#9](https://github.com/LaxarJS/cube.theme/issues/9): theme: add missing glyphicons
+
+
 ## v0.8.0
 
 - [#8](https://github.com/LaxarJS/cube.theme/issues/8): theme: updated laxar uikit, improved config.rb
