@@ -6,6 +6,7 @@
 ## v0.9.0
 
 - [#10](https://github.com/LaxarJS/cube.theme/issues/10): theme: added class for the developer tools
+- [#9](https://github.com/LaxarJS/cube.theme/issues/9): theme: add missing glyphicons
 
 
 ## v0.8.0
