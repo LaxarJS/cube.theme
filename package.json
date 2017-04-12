@@ -1,0 +1,27 @@
+{
+  "name": "laxar-cube.theme",
+  "version": "2.0.0-pre",
+  "description": "LaxarJS-flavoured variant of Boostrap 3",
+  "main": "sass-options.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaxarJS/cube.theme.git"
+  },
+  "keywords": [
+    "laxarjs",
+    "theme",
+    "bootstrap",
+    "orange"
+  ],
+  "author": "aixigo AG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LaxarJS/cube.theme/issues"
+  },
+  "homepage": "https://github.com/LaxarJS/cube.theme#readme",
+  "dependencies": {
+    "laxar-uikit": "^2.0.0-beta.0",
+    "pkg-dir": "^1.0.0"
+  }
+}

@@ -12533,3 +12533,12 @@ em {
 .ax-widget-outline {
   outline: dotted #ff9900 2px;
 }
+
+
+.app-logo {
+   background: url( "../images/laxarjs-logo.svg" ) no-repeat;
+}
+
+.app-flower {
+   background: url( "../images/pot-flower.svg" ) no-repeat;
+}
