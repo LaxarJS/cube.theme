@@ -2,6 +2,9 @@
 
 ## Last Changes
 
+
+## v2.0.0-alpha.0
+
 - [#11](https://github.com/LaxarJS/cube.theme/issues/11): added package.json and sass-options
     + **BREAKING CHANGE:** see ticket for details
 

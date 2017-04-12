@@ -1,6 +1,6 @@
 {
   "name": "laxar-cube.theme",
-  "version": "2.0.0-pre",
+  "version": "2.0.0-alpha.0",
   "description": "LaxarJS-flavoured variant of Boostrap 3",
   "main": "sass-options.js",
   "scripts": {},
