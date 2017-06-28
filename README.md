@@ -5,10 +5,11 @@
 
 ## Installation
 
-Install the `laxar-cube.theme` into your application using npm:
+Install the `laxar-cube.theme` and the required webpack [SCSS](http://sass-lang.com/) support into your application using npm:
 
 ```sh
 $ npm install --save laxar-cube.theme
+$ npm install --save-dev node-sass sass-loader
 ```
 
 Then, activate the theme in your application configuration (usually `init.js`):
@@ -27,17 +28,18 @@ create( [ /* adapters */ ], artifacts, configuration )
    // .bootstrap( ... )
 ```
 
-The theme is using [SCSS](http://sass-lang.com/), so you'll need to configure `scss` transpilation for your project.
-
-```sh
-$ npm install --save-dev sass-loader
-```
-
 For webpack, this can be simplified by using the theme-provided options for the _sass-loader_:
 
 ```js
 module.exports = {
    // ...
+   resolve: [
+      // ...
+      alias: {
+         // ...
+         'cube.theme': 'laxar-cube.theme'
+      }
+   ],
    module: {
       rules: [
          // ...,
