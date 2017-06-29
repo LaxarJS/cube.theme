@@ -2,6 +2,9 @@
 
 ## Last Changes
 
+
+## v2.0.0
+
 - [#13](https://github.com/LaxarJS/cube.theme/issues/13): documentation: further improved setup instructions
 - [#12](https://github.com/LaxarJS/cube.theme/issues/12): documentation: improved setup instructions
 

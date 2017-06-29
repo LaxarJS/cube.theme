@@ -1,6 +1,6 @@
 {
   "name": "laxar-cube.theme",
-  "version": "2.0.0-alpha.0",
+  "version": "2.0.0",
   "description": "LaxarJS-flavoured variant of Boostrap 3",
   "main": "sass-options.js",
   "scripts": {},
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/LaxarJS/cube.theme#readme",
   "dependencies": {
-    "laxar-uikit": "^2.0.0-beta.0",
+    "laxar-uikit": "^2.0.0",
     "pkg-dir": "^1.0.0"
   }
 }
